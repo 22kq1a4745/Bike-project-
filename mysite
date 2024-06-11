@@ -1,0 +1,112 @@
+
+<html>
+<head>
+   
+ 
+    <title>Bike Showcase</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <video id="video-background"autoplay muted loop>  
+                   <source src="in-y2mate.com - 2024 Tvs Upoming Bikes In India  FT Tvs Fiero 125  Apache Rtx Adv  Upcoming Bikes In India 2024_1080p.mp4">             your browser not support         </video>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Bike Showcase</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="features.html">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galary.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <marquee behavior="flow" direction="right to left" style="color: antiquewhite;"> "RIDING INTO THE FUTURE: A JOURNEY THROUGH INNOVATION - BIKE SHOWCASE PROJECT"</marquee>
+    <h1 style="background-color: azure; text-align: center;">Welcome to the Bike Showcase</h1>
+    <p style="background-color: azure; text-align: center;">Explore the features of our la test bike model</p>
+
+   
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   <style> 
+    #video-background{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+    }
+
+#content{
+    position:relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+}
+    
+    .header {
+      
+        color: orangered;
+        padding: 100px 0;
+
+    }
+  
+    .header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    
+    .header p {
+        font-size: 1.2rem;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    .about img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .features .card {
+        margin-bottom: 30px;
+    }
+    
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    </style>
+
+     <footer style="color:whitesmoke;">
+        
+        &copy; 2024 Bike Showcase. All rights reserved.
+        
+    </footer>
+
+</body>
+</html>
